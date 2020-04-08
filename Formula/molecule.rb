@@ -24,8 +24,8 @@ class Molecule < Formula
   #  python-vagrant
 
   resource "ansible" do
-    url "https://files.pythonhosted.org/packages/1e/7c/385ccbeb0fbefc13eaef53df76e42ef778170bdfe5fd425879735b43106e/ansible-2.4.0.0.tar.gz"
-    sha256 "1a276fee7f72d4e6601a7994879e8467edb763dacc3e215258cfe71350b77c76"
+    url "https://files.pythonhosted.org/packages/ae/b7/c717363f767f7af33d90af9458d5f1e0960db9c2393a6c221c2ce97ad1aa/ansible-2.9.6.tar.gz"
+    sha256 "59cf3a0781f89992d1dae5205b07e802dff1db205eebd238de9e503b62b8cbc9"
   end
 
   resource "ansible-lint" do
